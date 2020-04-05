@@ -1,0 +1,720 @@
+--------
+Frequency test: 
+----
+Whole data:
+    chi2: Do not reject with probability 0.95
+left critical statistic = 6.262137795043251 (P = 0.025)
+reached statistic = 15.603199999999891 (P = 0.5910982841783283)
+right critical statistic = 27.488392863442982 (P = 0.975)
+    kolm: Do not reject with probability 0.95
+left critical statistic = 0.4806349324173608 (P = 0.025)
+reached statistic = 0.9333450545870594 (P = 0.6516345062635356)
+right critical statistic = 1.4802068574249228 (P = 0.975)
+----
+First half:
+    chi2: Do not reject with probability 0.95
+left critical statistic = 6.262137795043251 (P = 0.025)
+reached statistic = 21.555200000000077 (P = 0.8799915167109229)
+right critical statistic = 27.488392863442982 (P = 0.975)
+    kolm: Do not reject with probability 0.95
+left critical statistic = 0.4806349324173608 (P = 0.025)
+reached statistic = 0.8503078896162445 (P = 0.5351484053024886)
+right critical statistic = 1.4802068574249228 (P = 0.975)
+----
+Last half:
+    chi2: Do not reject with probability 0.95
+left critical statistic = 6.262137795043251 (P = 0.025)
+reached statistic = 8.012799999999983 (P = 0.07673149050276305)
+right critical statistic = 27.488392863442982 (P = 0.975)
+    kolm: Do not reject with probability 0.95
+left critical statistic = 0.4806349324173608 (P = 0.025)
+reached statistic = 0.8404447728873709 (P = 0.520051050304811)
+right critical statistic = 1.4802068574249228 (P = 0.975)
+----
+Every 2nd:
+    chi2: Do not reject with probability 0.95
+left critical statistic = 6.262137795043251 (P = 0.025)
+reached statistic = 14.20160000000005 (P = 0.48970243085900667)
+right critical statistic = 27.488392863442982 (P = 0.975)
+    kolm: Do not reject with probability 0.95
+left critical statistic = 0.4806349324173608 (P = 0.025)
+reached statistic = 0.7439847371671371 (P = 0.36269931318864623)
+right critical statistic = 1.4802068574249228 (P = 0.975)
+----
+Every 3rd:
+    chi2: Do not reject with probability 0.95
+left critical statistic = 6.262137795043251 (P = 0.025)
+reached statistic = 11.266946610677888 (P = 0.26654838399403963)
+right critical statistic = 27.488392863442982 (P = 0.975)
+    kolm: Do not reject with probability 0.95
+left critical statistic = 0.4806349324173608 (P = 0.025)
+reached statistic = 1.296654423135646 (P = 0.9307145108859481)
+right critical statistic = 1.4802068574249228 (P = 0.975)
+----
+Every 5th:
+    chi2: Do not reject with probability 0.95
+left critical statistic = 6.262137795043251 (P = 0.025)
+reached statistic = 21.120000000000005 (P = 0.8669611029982824)
+right critical statistic = 27.488392863442982 (P = 0.975)
+    kolm: Do not reject with probability 0.95
+left critical statistic = 0.4806349324173608 (P = 0.025)
+reached statistic = 1.2009027674894928 (P = 0.88823561734746)
+right critical statistic = 1.4802068574249228 (P = 0.975)
+----
+Every 7th:
+    chi2: Do not reject with probability 0.95
+left critical statistic = 6.262137795043251 (P = 0.025)
+reached statistic = 10.496151154653568 (P = 0.21257437215740552)
+right critical statistic = 27.488392863442982 (P = 0.975)
+    kolm: Too good. Reject with probability 0.95 (reached p < 0.025)
+left critical statistic = 0.4806349324173608 (P = 0.025)
+reached statistic = 0.399102811844618 (P = 0.002717997644802146)
+right critical statistic = 1.4802068574249228 (P = 0.975)
+Passed 13/14 Frequency test
+--------
+Serial test: 
+----
+d=2, serie_len=2
+    chi2: Do not reject with probability 0.95
+left critical statistic = 0.2157952826238978 (P = 0.025)
+reached statistic = 4.318400000000012 (P = 0.7709280870685091)
+right critical statistic = 9.348403604496152 (P = 0.975)
+----
+d=2, serie_len=3
+    chi2: Do not reject with probability 0.95
+left critical statistic = 1.689869180677355 (P = 0.025)
+reached statistic = 6.000300030003001 (P = 0.4602856822345571)
+right critical statistic = 16.012764274629323 (P = 0.975)
+----
+d=2, serie_len=4
+    chi2: Do not reject with probability 0.95
+left critical statistic = 6.262137795043251 (P = 0.025)
+reached statistic = 23.123200000000008 (P = 0.9184410948925769)
+right critical statistic = 27.488392863442982 (P = 0.975)
+----
+d=2, serie_len=5
+    chi2: Do not reject with probability 0.95
+left critical statistic = 17.53873858147549 (P = 0.025)
+reached statistic = 28.99200000000002 (P = 0.4303500046567675)
+right critical statistic = 48.231889594451964 (P = 0.975)
+----
+d=3, serie_len=2
+    chi2: Do not reject with probability 0.95
+left critical statistic = 2.1797307472526497 (P = 0.025)
+reached statistic = 4.781199999999996 (P = 0.21931467764531806)
+right critical statistic = 17.534546139484654 (P = 0.975)
+----
+d=3, serie_len=3
+    chi2: Do not reject with probability 0.95
+left critical statistic = 13.843904982007599 (P = 0.025)
+reached statistic = 16.74167416741674 (P = 0.08332032525667173)
+right critical statistic = 41.92317009635391 (P = 0.975)
+----
+d=3, serie_len=4
+    chi2: Do not reject with probability 0.95
+left critical statistic = 57.153172883577916 (P = 0.025)
+reached statistic = 89.34320000000002 (P = 0.7775497787990521)
+right critical statistic = 106.6285677316657 (P = 0.975)
+----
+d=3, serie_len=5
+    chi2: Do not reject with probability 0.95
+left critical statistic = 200.80518312548273 (P = 0.025)
+reached statistic = 233.8989999999999 (P = 0.3661664654363837)
+right critical statistic = 286.9811707387045 (P = 0.975)
+----
+d=4, serie_len=2
+    chi2: Do not reject with probability 0.95
+left critical statistic = 6.262137795043251 (P = 0.025)
+reached statistic = 22.169599999999985 (P = 0.8965666539634761)
+right critical statistic = 27.488392863442982 (P = 0.975)
+----
+d=4, serie_len=3
+    chi2: Do not reject with probability 0.95
+left critical statistic = 42.95027487549902 (P = 0.025)
+reached statistic = 72.94059405940594 (P = 0.8163549879473373)
+right critical statistic = 86.82959056728612 (P = 0.975)
+----
+d=4, serie_len=4
+    chi2: Do not reject with probability 0.95
+left critical statistic = 212.6614263988956 (P = 0.025)
+reached statistic = 277.08799999999957 (P = 0.8365798008865112)
+right critical statistic = 301.12504289690884 (P = 0.975)
+----
+d=4, serie_len=5
+    chi2: Too good. Reject with probability 0.95 (reached p < 0.025)
+left critical statistic = 936.2547156270635 (P = 0.025)
+reached statistic = 735.7778749999874 (P = 8.9073186574038e-13)
+right critical statistic = 1113.533363213067 (P = 0.975)
+----
+d=5, serie_len=2
+    chi2: Do not reject with probability 0.95
+left critical statistic = 12.401150217444432 (P = 0.025)
+reached statistic = 15.63999999999999 (P = 0.09937020261562036)
+right critical statistic = 39.3640770266039 (P = 0.975)
+----
+d=5, serie_len=3
+    chi2: Do not reject with probability 0.95
+left critical statistic = 95.07008897234515 (P = 0.025)
+reached statistic = 142.960096009601 (P = 0.8828569475476733)
+right critical statistic = 156.71410382967215 (P = 0.975)
+----
+d=5, serie_len=4
+    chi2: Do not reject with probability 0.95
+left critical statistic = 556.6735943010103 (P = 0.025)
+reached statistic = 618.5 (P = 0.4454121518852475)
+right critical statistic = 695.1141433860261 (P = 0.975)
+----
+d=5, serie_len=5
+    chi2: Too good. Reject with probability 0.95 (reached p < 0.025)
+left critical statistic = 2970.9789553086357 (P = 0.025)
+reached statistic = 2059.550000000084 (P = 9.687782556357782e-54)
+right critical statistic = 3280.8094820216597 (P = 0.975)
+Passed 14/16 Serial test
+--------
+Permutation test: 
+----
+serie_len=2
+    chi2: Do not reject with probability 0.95
+left critical statistic = 0.0009820691171752564 (P = 0.025)
+reached statistic = 0.003199999999999739 (P = 0.04511110614512293)
+right critical statistic = 5.023886187314893 (P = 0.975)
+----
+serie_len=3
+    chi2: Do not reject with probability 0.95
+left critical statistic = 0.8312116134866626 (P = 0.025)
+reached statistic = 1.8532853285328523 (P = 0.13094952337052443)
+right critical statistic = 12.83250199403003 (P = 0.975)
+----
+serie_len=4
+    chi2: Do not reject with probability 0.95
+left critical statistic = 11.688551922452438 (P = 0.025)
+reached statistic = 23.609600000000007 (P = 0.5743175450047107)
+right critical statistic = 38.075627250355815 (P = 0.975)
+----
+serie_len=5
+    chi2: Do not reject with probability 0.95
+left critical statistic = 90.69958667433762 (P = 0.025)
+reached statistic = 126.04000000000005 (P = 0.6881654489832814)
+right critical statistic = 151.08441934081313 (P = 0.975)
+----
+serie_len=6
+    chi2: Too good. Reject with probability 0.95 (reached p < 0.025)
+left critical statistic = 646.5883191561857 (P = 0.025)
+reached statistic = 537.1090606878586 (P = 7.369389753841142e-08)
+right critical statistic = 795.1995341354858 (P = 0.975)
+Passed 4/5 Permutation test
+--------
+Serial correlation test: 
+----
+lag=1
+corrcoef=0.0060449310257897826
+    chi2: Too bad. Reject with probability 0.95 (reached S > 0.00010007002100510114)
+left critical statistic = -0.00030009002300530115 (P = 0.025)
+reached statistic = 0.0060449310257897826
+right critical statistic = 0.00010007002100510114 (P = 0.975)
+----
+lag=2
+corrcoef=-0.00796312335483562
+    chi2: Too bad. Reject with probability 0.95 (reached S < -0.00030009002300530115)
+left critical statistic = -0.00030009002300530115 (P = 0.025)
+reached statistic = -0.00796312335483562
+right critical statistic = 0.00010007002100510114 (P = 0.975)
+----
+lag=5
+corrcoef=-0.009656202240736962
+    chi2: Too bad. Reject with probability 0.95 (reached S < -0.00030009002300530115)
+left critical statistic = -0.00030009002300530115 (P = 0.025)
+reached statistic = -0.009656202240736962
+right critical statistic = 0.00010007002100510114 (P = 0.975)
+----
+lag=10
+corrcoef=-0.006085701422225093
+    chi2: Too bad. Reject with probability 0.95 (reached S < -0.00030009002300530115)
+left critical statistic = -0.00030009002300530115 (P = 0.025)
+reached statistic = -0.006085701422225093
+right critical statistic = 0.00010007002100510114 (P = 0.975)
+----
+lag=20
+corrcoef=0.0004317337278734112
+    chi2: Too bad. Reject with probability 0.95 (reached S > 0.00010007002100510114)
+left critical statistic = -0.00030009002300530115 (P = 0.025)
+reached statistic = 0.0004317337278734112
+right critical statistic = 0.00010007002100510114 (P = 0.975)
+Passed 0/5 Serial correlation test
+--------
+Poker test: 
+----
+d=5, serie_len=5
+expected=[195.20000000000002, 960.0, 768.0, 76.8]
+p_emp=[175.00000000000003, 994.0, 762.0, 69.0]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 0.48441855708792997 (P = 0.025)
+reached statistic = 4.133598019125682 (P = 0.6117728450688547)
+right critical statistic = 11.1432867818778 (P = 0.975)
+----
+d=6, serie_len=5
+expected=[117.28395061728395, 771.604938271605, 925.925925925926, 185.18518518518516]
+p_emp=[111.0, 796.0, 916.0, 177.0]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 0.48441855708792997 (P = 0.025)
+reached statistic = 1.576152842105265 (P = 0.18692831845080038)
+right critical statistic = 11.1432867818778 (P = 0.975)
+----
+d=6, serie_len=6
+expected=[33.4429012345679, 385.8796296296296, 836.0725308641976, 385.8796296296296, 25.725308641975307]
+p_emp=[34.0, 369.0, 838.0, 398.0, 28.0]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 0.8312116134866626 (P = 0.025)
+reached statistic = 1.3339245996954439 (P = 0.06859754567961995)
+right critical statistic = 12.83250199403003 (P = 0.975)
+----
+d=7, serie_len=5
+expected=[75.80174927113703, 624.7396917950854, 999.5835068721366, 299.875052061641]
+p_emp=[84.0, 577.0, 1062.0, 277.0]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 0.48441855708792997 (P = 0.025)
+reached statistic = 10.177112132478644 (P = 0.9624523734979454)
+right critical statistic = 11.1432867818778 (P = 0.975)
+----
+d=7, serie_len=6
+expected=[18.547569465103827, 267.79913131433335, 773.641934908074, 535.5982626286667, 71.41310168382222]
+p_emp=[19.0, 262.0, 788.0, 525.0, 73.0]
+    chi2: Too good. Reject with probability 0.95 (reached p < 0.025)
+left critical statistic = 0.8312116134866626 (P = 0.025)
+reached statistic = 0.6480656212329032 (P = 0.014303068858269385)
+right critical statistic = 12.83250199403003 (P = 0.975)
+----
+d=7, serie_len=7
+expected=[4.603447543115538, 109.68108526209318, 510.1445826143868, 612.1734991372642, 183.65204974117927, 8.745335701960919]
+p_emp=[7.0, 101.0, 522.0, 623.0, 167.0, 9.0]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 1.2373442457912027 (P = 0.025)
+reached statistic = 3.919006637594685 (P = 0.312363837361706)
+right critical statistic = 14.449375335447924 (P = 0.975)
+----
+d=8, serie_len=5
+expected=[51.7578125, 512.6953125, 1025.390625, 410.15625]
+p_emp=[48.0, 501.0, 1058.0, 393.0]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 0.48441855708792997 (P = 0.025)
+reached statistic = 2.294279820305482 (P = 0.31818930157599645)
+right critical statistic = 11.1432867818778 (P = 0.975)
+----
+d=8, serie_len=6
+expected=[11.09027099609375, 192.2991943359375, 694.4137573242188, 640.997314453125, 128.199462890625]
+p_emp=[10.0, 207.0, 711.0, 610.0, 129.0]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 0.8312116134866626 (P = 0.025)
+reached statistic = 3.131155943896071 (P = 0.3202263780794514)
+right critical statistic = 12.83250199403003 (P = 0.975)
+----
+d=8, serie_len=7
+expected=[2.4094314575195312, 68.91410064697266, 400.6633758544922, 641.0614013671875, 288.4776306152344, 27.47406005859375]
+p_emp=[3.0, 66.0, 408.00000000000006, 655.0, 272.0, 24.999999999999996]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 1.2373442457912027 (P = 0.025)
+reached statistic = 1.869368572589543 (P = 0.06868799299729995)
+right critical statistic = 14.449375335447924 (P = 0.975)
+----
+d=8, serie_len=8
+expected=[0.5304813385009766, 24.182796478271484, 212.91375160217285, 525.7129669189453, 399.54185485839844, 84.11407470703125, 3.0040740966796875]
+p_emp=[0.0, 27.0, 225.0, 525.0, 394.0, 76.0, 2.9999999999999996]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 1.689869180677355 (P = 0.025)
+reached statistic = 2.405328106186792 (P = 0.0659443306745486)
+right critical statistic = 16.012764274629323 (P = 0.975)
+----
+d=9, serie_len=5
+expected=[36.884621246761164, 426.7642127724433, 1024.2341106538638, 512.1170553269319]
+p_emp=[44.0, 450.0, 983.0, 523.0]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 0.48441855708792997 (P = 0.025)
+reached statistic = 4.529021874999997 (P = 0.6608799062288278)
+right critical statistic = 11.1432867818778 (P = 0.975)
+----
+d=9, serie_len=6
+expected=[7.029467052786669, 142.28318853833258, 616.5604836661078, 711.4159426916628, 189.7109180511101]
+p_emp=[11.0, 146.0, 630.0, 693.0, 187.0]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 0.8312116134866626 (P = 0.025)
+reached statistic = 3.148221726087066 (P = 0.3228534342281994)
+right critical statistic = 12.83250199403003 (P = 0.975)
+----
+d=9, serie_len=7
+expected=[1.3579023823905194, 45.32436150014772, 316.2164755824259, 632.4329511648518, 379.4597706989111, 54.20853867127301]
+p_emp=[0.0, 45.0, 344.0, 598.0, 381.0, 61.0]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 1.2373442457912027 (P = 0.025)
+reached statistic = 6.533172248491565 (P = 0.6338189368059277)
+right critical statistic = 14.449375335447924 (P = 0.975)
+----
+d=9, serie_len=8
+expected=[0.26578679477119754, 14.137662192667358, 149.36747447035512, 461.0107236739356, 467.1575333229214, 147.5234315756594, 10.537387969689956]
+p_emp=[0.0, 13.0, 159.0, 480.99999999999994, 428.0, 157.0, 11.999999999999998]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 1.689869180677355 (P = 0.025)
+reached statistic = 5.939237029632696 (P = 0.45313796071524953)
+right critical statistic = 16.012764274629323 (P = 0.975)
+----
+d=9, serie_len=9
+expected=[0.05267650932111647, 4.37207284615244, 67.38050779756256, 301.39119028369197, 458.9158909455613, 240.3845143048178, 37.46252170984173, 1.0406256030511591]
+p_emp=[0.0, 2.0, 71.0, 311.0, 454.0, 231.0, 42.0, 0.0]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 2.1797307472526497 (P = 0.025)
+reached statistic = 3.8496532649419843 (P = 0.12957297992442116)
+right critical statistic = 17.534546139484654 (P = 0.975)
+----
+d=10, serie_len=5
+expected=[27.2, 360.0, 1008.0, 604.8]
+p_emp=[28.0, 364.0, 983.0, 625.0]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 0.48441855708792997 (P = 0.025)
+reached statistic = 1.3626828509181461 (P = 0.14934571888925988)
+right critical statistic = 11.1432867818778 (P = 0.975)
+----
+d=10, serie_len=6
+expected=[4.6676, 108.02159999999999, 546.1092, 756.1512, 252.0504]
+p_emp=[3.0, 103.0, 558.0, 752.0, 251.0]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 0.8312116134866626 (P = 0.025)
+reached statistic = 1.115298389243599 (P = 0.047259377206999235)
+right critical statistic = 12.83250199403003 (P = 0.975)
+----
+d=10, serie_len=7
+expected=[0.8116720000000001, 30.969288, 252.0756, 604.98144, 453.73608, 86.42592]
+p_emp=[0.0, 29.0, 260.0, 605.0, 456.0, 79.0]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 1.2373442457912027 (P = 0.025)
+reached statistic = 1.835361179513749 (P = 0.06579953972568502)
+right critical statistic = 14.449375335447924 (P = 0.975)
+----
+d=10, serie_len=8
+expected=[0.14300000000000002, 8.693999999999999, 107.163, 396.90000000000003, 502.74, 211.68, 22.68]
+p_emp=[0.0, 8.0, 103.0, 397.0, 502.0, 219.0, 21.0]
+    chi2: Too good. Reject with probability 0.95 (reached p < 0.025)
+left critical statistic = 1.689869180677355 (P = 0.025)
+reached statistic = 0.738808361846432 (P = 0.0019805414870799672)
+right critical statistic = 16.012764274629323 (P = 0.975)
+----
+d=10, serie_len=9
+expected=[0.02550856, 2.419758, 43.507648800000005, 233.53024464, 444.48354720000003, 310.43295359999996, 72.5687424, 4.0315968]
+p_emp=[0.0, 2.0, 46.99999999999999, 223.0, 453.0, 313.0, 70.0, 3.0]
+    chi2: Too good. Reject with probability 0.95 (reached p < 0.025)
+left critical statistic = 2.1797307472526497 (P = 0.025)
+reached statistic = 1.3927752858898503 (P = 0.005651517079618173)
+right critical statistic = 17.534546139484654 (P = 0.975)
+----
+d=10, serie_len=10
+expected=[0.0046, 0.67176, 17.18892, 128.5956, 345.14423999999997, 355.6224, 136.08, 16.3296, 0.36288]
+p_emp=[0.0, 1.0, 21.0, 137.0, 344.0, 364.0, 119.0, 14.0, 0.0]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 2.700389499980358 (P = 0.025)
+reached statistic = 4.599399716594116 (P = 0.13226059556070247)
+right critical statistic = 19.022767798641638 (P = 0.975)
+Passed 18/21 Poker test
+--------
+Maximum of t test: 
+----
+t=2
+    kolm: Do not reject with probability 0.95
+left critical statistic = 0.4806349324173608 (P = 0.025)
+reached statistic = 0.7388423443225818 (P = 0.3540280614076257)
+right critical statistic = 1.4802068574249228 (P = 0.975)
+----
+t=3
+    kolm: Do not reject with probability 0.95
+left critical statistic = 0.4806349324173608 (P = 0.025)
+reached statistic = 0.8973386503090783 (P = 0.6035842290312414)
+right critical statistic = 1.4802068574249228 (P = 0.975)
+----
+t=4
+    kolm: Do not reject with probability 0.95
+left critical statistic = 0.4806349324173608 (P = 0.025)
+reached statistic = 0.8070440398568582 (P = 0.4672746019450045)
+right critical statistic = 1.4802068574249228 (P = 0.975)
+----
+t=5
+    kolm: Do not reject with probability 0.95
+left critical statistic = 0.4806349324173608 (P = 0.025)
+reached statistic = 0.8749827458402457 (P = 0.5718175138717092)
+right critical statistic = 1.4802068574249228 (P = 0.975)
+----
+t=6
+    kolm: Do not reject with probability 0.95
+left critical statistic = 0.4806349324173608 (P = 0.025)
+reached statistic = 0.6085521293531911 (P = 0.1472398857276145)
+right critical statistic = 1.4802068574249228 (P = 0.975)
+----
+t=7
+    kolm: Do not reject with probability 0.95
+left critical statistic = 0.4806349324173608 (P = 0.025)
+reached statistic = 0.8802885394862449 (P = 0.5794859651570317)
+right critical statistic = 1.4802068574249228 (P = 0.975)
+----
+t=8
+    kolm: Do not reject with probability 0.95
+left critical statistic = 0.4806349324173608 (P = 0.025)
+reached statistic = 0.531313864849349 (P = 0.05967029358384035)
+right critical statistic = 1.4802068574249228 (P = 0.975)
+----
+t=9
+    kolm: Do not reject with probability 0.95
+left critical statistic = 0.4806349324173608 (P = 0.025)
+reached statistic = 0.540746602875752 (P = 0.06819529521482046)
+right critical statistic = 1.4802068574249228 (P = 0.975)
+----
+t=10
+    kolm: Do not reject with probability 0.95
+left critical statistic = 0.4806349324173608 (P = 0.025)
+reached statistic = 0.5182964430943036 (P = 0.048977351929470815)
+right critical statistic = 1.4802068574249228 (P = 0.975)
+----
+t=11
+    kolm: Do not reject with probability 0.95
+left critical statistic = 0.4806349324173608 (P = 0.025)
+reached statistic = 0.5657208433776089 (P = 0.09383302321578835)
+right critical statistic = 1.4802068574249228 (P = 0.975)
+Passed 10/10 Maximum of t test
+--------
+Gap test: 
+----
+max_gap_length=10, alph=0.0, beta=0.5
+    chi2: Do not reject with probability 0.95
+left critical statistic = 3.246972780236841 (P = 0.025)
+reached statistic = 17.886187499999995 (P = 0.9430858860193595)
+right critical statistic = 20.48317735080739 (P = 0.975)
+----
+max_gap_length=10, alph=0.5, beta=1.0
+    chi2: Too bad. Reject with probability 0.95 (reached p > 0.975)
+left critical statistic = 3.246972780236841 (P = 0.025)
+reached statistic = 22.533387500000003 (P = 0.9873936734686527)
+right critical statistic = 20.48317735080739 (P = 0.975)
+----
+max_gap_length=10, alph=0.0, beta=0.25
+    chi2: Too bad. Reject with probability 0.95 (reached p > 0.975)
+left critical statistic = 3.246972780236841 (P = 0.025)
+reached statistic = 43.443041738232196 (P = 0.9999958568841161)
+right critical statistic = 20.48317735080739 (P = 0.975)
+----
+max_gap_length=10, alph=0.25, beta=0.5
+    chi2: Too bad. Reject with probability 0.95 (reached p > 0.975)
+left critical statistic = 3.246972780236841 (P = 0.025)
+reached statistic = 62.115253555536455 (P = 0.999999998561218)
+right critical statistic = 20.48317735080739 (P = 0.975)
+----
+max_gap_length=10, alph=0.5, beta=0.75
+    chi2: Too bad. Reject with probability 0.95 (reached p > 0.975)
+left critical statistic = 3.246972780236841 (P = 0.025)
+reached statistic = 50.07061757750691 (P = 0.9999997409556748)
+right critical statistic = 20.48317735080739 (P = 0.975)
+----
+max_gap_length=10, alph=0.75, beta=1.0
+    chi2: Too bad. Reject with probability 0.95 (reached p > 0.975)
+left critical statistic = 3.246972780236841 (P = 0.025)
+reached statistic = 50.323759476607655 (P = 0.9999997673033555)
+right critical statistic = 20.48317735080739 (P = 0.975)
+----
+max_gap_length=15, alph=0.0, beta=0.5
+    chi2: Do not reject with probability 0.95
+left critical statistic = 6.262137795043251 (P = 0.025)
+reached statistic = 12.785612109375 (P = 0.38114698692035043)
+right critical statistic = 27.488392863442982 (P = 0.975)
+----
+max_gap_length=15, alph=0.5, beta=1.0
+    chi2: Do not reject with probability 0.95
+left critical statistic = 6.262137795043251 (P = 0.025)
+reached statistic = 8.617612109374997 (P = 0.1033520024205493)
+right critical statistic = 27.488392863442982 (P = 0.975)
+----
+max_gap_length=15, alph=0.0, beta=0.25
+    chi2: Too bad. Reject with probability 0.95 (reached p > 0.975)
+left critical statistic = 6.262137795043251 (P = 0.025)
+reached statistic = 42.10084210647702 (P = 0.999783139118368)
+right critical statistic = 27.488392863442982 (P = 0.975)
+----
+max_gap_length=15, alph=0.25, beta=0.5
+    chi2: Too bad. Reject with probability 0.95 (reached p > 0.975)
+left critical statistic = 6.262137795043251 (P = 0.025)
+reached statistic = 32.664839846095816 (P = 0.9947788133132885)
+right critical statistic = 27.488392863442982 (P = 0.975)
+----
+max_gap_length=15, alph=0.5, beta=0.75
+    chi2: Do not reject with probability 0.95
+left critical statistic = 6.262137795043251 (P = 0.025)
+reached statistic = 26.53611453991512 (P = 0.9672487483078861)
+right critical statistic = 27.488392863442982 (P = 0.975)
+----
+max_gap_length=15, alph=0.75, beta=1.0
+    chi2: Do not reject with probability 0.95
+left critical statistic = 6.262137795043251 (P = 0.025)
+reached statistic = 24.689551500514277 (P = 0.9457287778398176)
+right critical statistic = 27.488392863442982 (P = 0.975)
+----
+max_gap_length=20, alph=0.0, beta=0.5
+    chi2: Too good. Reject with probability 0.95 (reached p < 0.025)
+left critical statistic = 9.590777392264867 (P = 0.025)
+reached statistic = 9.549031628417975 (P = 0.024368108490789984)
+right critical statistic = 34.169606902838346 (P = 0.975)
+----
+max_gap_length=20, alph=0.5, beta=1.0
+    chi2: Do not reject with probability 0.95
+left critical statistic = 9.590777392264867 (P = 0.025)
+reached statistic = 30.771031628417965 (P = 0.9417133079945257)
+right critical statistic = 34.169606902838346 (P = 0.975)
+----
+max_gap_length=20, alph=0.0, beta=0.25
+    chi2: Do not reject with probability 0.95
+left critical statistic = 9.590777392264867 (P = 0.025)
+reached statistic = 22.341216233951062 (P = 0.6777139918379721)
+right critical statistic = 34.169606902838346 (P = 0.975)
+----
+max_gap_length=20, alph=0.25, beta=0.5
+    chi2: Do not reject with probability 0.95
+left critical statistic = 9.590777392264867 (P = 0.025)
+reached statistic = 14.555120793717274 (P = 0.19872716567964122)
+right critical statistic = 34.169606902838346 (P = 0.975)
+----
+max_gap_length=20, alph=0.5, beta=0.75
+    chi2: Do not reject with probability 0.95
+left critical statistic = 9.590777392264867 (P = 0.025)
+reached statistic = 32.97887250587481 (P = 0.9660787059719185)
+right critical statistic = 34.169606902838346 (P = 0.975)
+----
+max_gap_length=20, alph=0.75, beta=1.0
+    chi2: Do not reject with probability 0.95
+left critical statistic = 9.590777392264867 (P = 0.025)
+reached statistic = 15.406595746150842 (P = 0.247311297244213)
+right critical statistic = 34.169606902838346 (P = 0.975)
+Passed 10/18 Gap test
+--------
+Run test: 
+----
+Runs up
+count=[1781, 1245, 472, 130, 24, 3]
+expected=[1827.5, 1218.3333333333335, 456.875, 121.83333333333333, 25.381944444444443, 5.076388888888889]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 0.8312116134866626 (P = 0.025)
+reached statistic = 3.739534883720925 (P = 0.4125082663835119)
+right critical statistic = 12.83250199403003 (P = 0.975)
+----
+Runs down
+count=[1792, 1254, 485, 121, 16, 2]
+expected=[1835.0, 1223.3333333333335, 458.75, 122.33333333333333, 25.48611111111111, 5.097222222222222]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 0.8312116134866626 (P = 0.025)
+reached statistic = 8.705722070844683 (P = 0.8786065302767901)
+right critical statistic = 12.83250199403003 (P = 0.975)
+Passed 2/2 Run test
+--------
+Collision test: 
+----
+segments=10, dimensions=2
+c_collisions=13
+    collision result: Do not reject with probability 0.95
+left critical statistic = 5.999999999999999 (P = 0.025)
+reached statistic = 13 (P = 0.9000107775863976)
+right critical statistic = 14.999999999999998 (P = 0.975)
+----
+segments=10, dimensions=3
+c_collisions=3
+    collision result: Do not reject with probability 0.95
+left critical statistic = 0.9999999999999999 (P = 0.025)
+reached statistic = 3 (P = 0.27747107281643035)
+right critical statistic = 8.999999999999998 (P = 0.975)
+----
+segments=10, dimensions=5
+c_collisions=6
+    collision result: Do not reject with probability 0.95
+left critical statistic = 0.9999999999999999 (P = 0.025)
+reached statistic = 6 (P = 0.7663293864010112)
+right critical statistic = 9.999999999999998 (P = 0.975)
+----
+segments=10, dimensions=6
+c_collisions=48
+    collision result: Do not reject with probability 0.95
+left critical statistic = 36.99999999999999 (P = 0.025)
+reached statistic = 48 (P = 0.4336704262408565)
+right critical statistic = 63.99999999999999 (P = 0.975)
+----
+segments=10, dimensions=7
+c_collisions=469
+    collision result: Do not reject with probability 0.95
+left critical statistic = 454.99999999999994 (P = 0.025)
+reached statistic = 469 (P = 0.09585938913655823)
+right critical statistic = 541.9999999999999 (P = 0.975)
+----
+segments=2, dimensions=8
+c_collisions=3
+    collision result: Do not reject with probability 0.95
+left critical statistic = -1.5777218104420236e-30 (P = 0.025)
+reached statistic = 3 (P = 0.8972096429064522)
+right critical statistic = 4.999999999999999 (P = 0.975)
+----
+segments=2, dimensions=10
+c_collisions=29
+    collision result: Do not reject with probability 0.95
+left critical statistic = 20.999999999999996 (P = 0.025)
+reached statistic = 29 (P = 0.5161931532964551)
+right critical statistic = 38.99999999999999 (P = 0.975)
+----
+segments=2, dimensions=15
+c_collisions=14
+    collision result: Do not reject with probability 0.95
+left critical statistic = 8.999999999999998 (P = 0.025)
+reached statistic = 14 (P = 0.38089911812123767)
+right critical statistic = 23.999999999999996 (P = 0.975)
+----
+segments=2, dimensions=20
+c_collisions=139
+    collision result: Do not reject with probability 0.95
+left critical statistic = 105.99999999999999 (P = 0.025)
+reached statistic = 139 (P = 0.8616383106987754)
+right critical statistic = 149.99999999999997 (P = 0.975)
+----
+segments=2, dimensions=22
+c_collisions=125
+    collision result: Do not reject with probability 0.95
+left critical statistic = 105.99999999999999 (P = 0.025)
+reached statistic = 125 (P = 0.4291890782219997)
+right critical statistic = 149.99999999999997 (P = 0.975)
+Passed 10/10 Collision test
+--------
+Birthday spacing test: 
+----
+m_urns=4194304, n_balls=256
+collisions=[336, 382, 204, 57, 21]
+mu=1.0
+expected_num=[367.87944117144235, 367.87944117144235, 183.93972058572115, 61.31324019524039, 18.98815687615385]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 0.48441855708792997 (P = 0.025)
+reached statistic = 6.008924930296038 (P = 0.8015172549986362)
+right critical statistic = 11.1432867818778 (P = 0.975)
+----
+m_urns=33554432, n_balls=512
+collisions=[389, 380, 166, 47, 18]
+mu=1.0
+expected_num=[367.87944117144235, 367.87944117144235, 183.93972058572115, 61.31324019524039, 18.98815687615385]
+    chi2: Do not reject with probability 0.95
+left critical statistic = 0.48441855708792997 (P = 0.025)
+reached statistic = 6.754343572387072 (P = 0.8505463520347307)
+right critical statistic = 11.1432867818778 (P = 0.975)
+----
+m_urns=268435456, n_balls=1024
+collisions=[212, 358, 254, 112, 64]
+mu=1.0
+expected_num=[367.87944117144235, 367.87944117144235, 183.93972058572115, 61.31324019524039, 18.98815687615385]
+    chi2: Too bad. Reject with probability 0.95 (reached p > 0.975)
+left critical statistic = 0.48441855708792997 (P = 0.025)
+reached statistic = 241.60384153442277 (P = 1.0)
+right critical statistic = 11.1432867818778 (P = 0.975)
+----
+m_urns=2147483648, n_balls=2048
+collisions=[65, 198, 200, 235, 302]
+mu=1.0
+expected_num=[367.87944117144235, 367.87944117144235, 183.93972058572115, 61.31324019524039, 18.98815687615385]
+    chi2: Too bad. Reject with probability 0.95 (reached p > 0.975)
+left critical statistic = 0.48441855708792997 (P = 0.025)
+reached statistic = 5039.421962475628 (P = 1.0)
+right critical statistic = 11.1432867818778 (P = 0.975)
+Passed 2/4 Birthday spacing test
+Total passed 278.75/344.5 tests (80.9 %)
