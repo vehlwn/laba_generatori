@@ -1,4 +1,6 @@
 import math
+import pdb
+import sys
 
 
 def invCdf(F, u: float) -> float:
@@ -19,16 +21,13 @@ def invCdf(F, u: float) -> float:
         b += i
         i *= 2
     i = 0
-    while a < b and i < 100:
-        x = a * 0.5 + b * 0.5
-        # Median less than machine epsilon between a, b.
-        if x == b or x == a:
-            break
+    d = b - a
+    w = int(math.ceil(sys.float_info.mant_dig * math.log2(sys.float_info.radix)))
+    for i in range(w):
+        d /= 2
+        x = a + d
         v = F(x)
         # Find supremum: if v == u shift edge to the right.
         if v <= u:
             a = x
-        else:
-            b = x
-        i += 1
     return a

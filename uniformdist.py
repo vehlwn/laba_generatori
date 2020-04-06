@@ -47,7 +47,7 @@ class UniformRealDistribution(BaseUniformDistribution):
         super().__init__(a, b)
         self.__w = int(
             math.ceil(sys.float_info.mant_dig *
-                      math.log(sys.float_info.radix, 2))
+                      math.log2(sys.float_info.radix))
         )
         self.__e = BitsEngine()
 
