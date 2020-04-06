@@ -27,15 +27,15 @@ gen = Lcg(seed)
 total_passed_tests = 0.0
 total_tests = 0.0
 for test in [
-    FrequencyTest(),
-    SerialTest(),
-    PermutationTest(),
-    SerialCorrelationTest(),
-    PockerTest(),
-    MaximumOfTTest(),
-    GapTest(),
-    RunTest2(),
-    CollisionTest(),
+    # FrequencyTest(),
+    # SerialTest(),
+    # PermutationTest(),
+    # SerialCorrelationTest(),
+    # PockerTest(),
+    # MaximumOfTTest(),
+    # GapTest(),
+    # RunTest2(),
+    # CollisionTest(),
     BirthdaySpacingTest(),
 ]:
     print("--------\n" + str(test) + ": ")

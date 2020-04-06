@@ -17,8 +17,9 @@ gen = Lcg(seed)
 # gen = RandomizeByShuffleB(Lcg(seed))
 # gen = LaggedFibGen(seed)
 a = 0
-b = 1
+b = 100
 dist = UniformRealDistribution(a, b)
+# dist = UniformIntDistribution(a, b)
 data = [dist(gen) for i in range(1_000)]
 
 plot_rows = 2
@@ -47,8 +48,8 @@ def plot_2d_data(data, sub_index: int):
     plt.subplot(plot_rows, plot_cols, sub_index)
     plt.plot(xdata, ydata, ".")
     plt.title("2D distribution")
-    plt.xlabel("x_n")
-    plt.ylabel("x_{n+1}")
+    plt.xlabel("$x_n$")
+    plt.ylabel("$x_{n+1}$")
     plt.grid(True)
 
 
@@ -64,9 +65,9 @@ def plot_3d_data(data, sub_index: int):
     fig = plt.gcf()
     ax = fig.add_subplot(plot_rows, plot_cols, sub_index, projection="3d")
     ax.scatter(xdata, ydata, zdata, marker=".")
-    ax.set_xlabel("x_n")
-    ax.set_ylabel("x_{n+1}")
-    ax.set_zlabel("x_{n+2}")
+    ax.set_xlabel("$x_n$")
+    ax.set_ylabel("$x_{n+1}$")
+    ax.set_zlabel("$x_{n+2}$")
 
     plt.title("3D distribution")
     plt.grid(True)
