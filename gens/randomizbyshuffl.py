@@ -32,7 +32,7 @@ class RandomizeByShuffleM(BaseGenerator):
 
 
 class RandomizeByShuffleB(BaseGenerator):
-    """Knuth, vol 2, par 3.2.2 Other methods, Algorithm M, pp 34.
+    """Knuth, vol 2, par 3.2.2 Other methods, Algorithm B, pp 34.
     """
 
     def __init__(self, gen: BaseGenerator, k=100):
